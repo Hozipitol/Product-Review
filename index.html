@@ -45,15 +45,16 @@
 <!-- FIRST PAGE -->
 <section class="first-page">
 
-  <div class="container">
+  <div class="container pb-5">
 
     <div class="row">
       <div class="col-lg-6 col-md-12 div-tagline"><h2 class="tagline">CONFUSED IN BUYING LATEST TECHNOLOGIES ? THEN DON'T WORRY, YOU ARE IN THE RIGHT PLACE !</h2></div>
-      <div class="col-lg-6 col-md-12 div-confused-robot"><img class="confused-robot" src="Images\confused_robot.gif" alt="GIF">
-        <img class="phone" src="Images\smartphone.png" alt="Phone">
-        <img class="laptop" src="Images\laptop1.png" alt="laptop">
-        <img class="camera" src="Images\photo-camera.png" alt="cam">
-        <img class="watch" src="Images\smart-watch.png" alt="watch"></div>
+      <div class="col-lg-6 col-md-12 div-confused-robot d-flex align-items-center justify-content-center d-lg-block">
+        <img class="confused-robot" src="Images\confused_robot.gif" alt="GIF">
+        <img class="d-none d-lg-inline phone" src="Images\smartphone.png" alt="Phone">
+        <img class="d-none d-lg-inline laptop" src="Images\laptop1.png" alt="laptop">
+        <img class="d-none d-lg-inline camera" src="Images\photo-camera.png" alt="cam">
+        <img class="d-none d-lg-inline watch" src="Images\smart-watch.png" alt="watch"></div>
       </div>
   </div>
 
@@ -70,23 +71,13 @@
 <!-- SELECTION AREA -->
 <section class="selection-area">
   <div class="container">
-    <div class="row">
-
-      <div class="col-lg-3">
-        <a href="index-phone.html"><button type="button" style="outline-style:none;" class="styling-button"><img style="width: 30px;" src="https://img.icons8.com/dusk/64/000000/google-mobile.png"> PHONES</button></a>
-      </div>
-      <div class="col-lg-3">
-        <a href="laptop.html"><button type="button" style="outline-style:none;" class="styling-button"><img style="width: 30px;" src="https://img.icons8.com/color/48/000000/laptop.png"> LAPTOPS</button></a>
-      </div>
-        <div class="col-lg-3">
-          <a href="camera.html"> <button type="button" style="outline-style:none;" class="styling-button"><img
-                style="width: 30px;" src="https://img.icons8.com/color/48/000000/compact-camera.png"> CAMERAS</button></a>
-        </div>
-        <div class="col-lg-3">
-          <a href="watch.html"> <button type="button" style="outline-style:none;" class="styling-button"><img
-                style="width: 31px;" src="https://img.icons8.com/color/48/000000/apple-watch-apps.png"> WATCHES</button></a>
-
-    </div>
+      
+    <div class="row mx-auto d-flex align-items-center justify-content-center">
+      <a href="index-phone.html" class="btn btn-warning m-3"><i class="fas fa-mobile"></i> Phones</a>
+      <a href="laptop.html" class="btn btn-warning m-3"><i class="fas fa-laptop"></i> Laptop</a>
+      <a href="camera.html" class="btn btn-warning m-3"><i class="fas fa-camera-retro"></i> Camera</a>
+      <a href="watch.html" class="btn btn-warning m-3"><i class="fas fa-clock"></i> Watches</a>
+     
 
   </div>
 </section>
