@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>YourEview</title>
+    <link rel="icon" href="Images\icon1.png">
+    <link rel="stylesheet" href="CSS/contact-style.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Acme|Comfortaa|Fredoka+One|Josefin+Sans|Nunito+Sans|Raleway|Righteous&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Font-icons -->
+    <script src="https://kit.fontawesome.com/bbf15990ab.js"></script>
+</head>
+
+<body class="bg-warning">
+    <section class="NAVIGATION-BAR">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ffb300;">
+            <a class="navbar-brand" style="font-size: 2.4rem;" href="#"><img src="Images\icon1.png" class="nav-image"
+                    alt="Img"> YourEview</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">REVIEW PAGE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="c.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    
+    <div class="container bg-warning">
+       
+        
+            
+            <div class="wrapper animated bounceInLeft">
+                <div class="company-info">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fa fa-road"></i> 44 Something st</li>
+                        <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+                        <li><i class="fa fa-envelope"></i> test@acme.test</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Email Us</h3>
+                    <div class="alert">Your review has been recieved we will analize and then show it</div>
+                    <form id="contactForm">
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </p>
+                        <p>
+                            <label>Product</label>
+                            <input type="text" name="company" id="company">
+                        </p>
+                        <p>
+                            <label>Email Address</label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone">
+                        </p>
+                        <p class="full">
+                            <label>Review</label>
+                            <textarea name="message" rows="5" id="message"></textarea>
+                        </p>
+                        <p class="full">
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+     
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
